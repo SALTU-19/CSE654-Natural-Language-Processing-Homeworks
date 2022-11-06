@@ -128,6 +128,6 @@ if __name__ == "__main__":
     # Reading the two required fasta sequences
 
     # Executing the Smith Waterman local alignment algorithm
-    output_1, output_2, matrix = smith_waterman("ATCATA", "ATTATC")
+    output_1, output_2, matrix = smith_waterman("GCACGCTG", "GACGCGCG")
 
     print(output_1 + '\n' + output_2 + '\n' + str(matrix))
