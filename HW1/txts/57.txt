@@ -1,0 +1,401 @@
+b) 6 mol NaOH bazının nötralleşmesi için kaç mol H3PO4’e ihtiyaç vardır?
+Aciklamalarla vaktini harcama. Insanlar sadece duymak istediklerini duyarlar.
+Çözüm:
+a)
+H3PO4 
++ 
+3 NaONa3PO4 
++
+3 H2b) Her 3 mol NaOH bazının nötralleşmesi için 1 mol H3PO4’ e ihtiyaç olduğunda 6 mol NaOH için 2 mol H3PO4’ e ihtiyaç vardırb)
+2 HC(2 H+ 2 Cl -)
+Ca(OH)2 ve H2SO4 arasında gerçekleşen nötralleşme tepkimesine göre 3 mol 
+tuz oluşması için kaçar mol asit ve bazın tepkimeye girmesi gerekmektedir?
+Çözüm:
+Denkleşmiş tepkime aşağıdaki gibidir:
+Ca(OH)2 
++ 
+H2SO4 
+CaSO4  
++
+2 H25. Uygulam4. UygulamÜnitAsitler, Bazlar ve TuzlaAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya Tepkimeye göre 1 mol CaSO4 tuzunun oluşması için 1 mol asit ve 1 mol baz 
+tepkimeye girmiştir. Buna göre 3 mol tuzun oluşması için 3 mol asit ve 3 mol baza 
+ihtiyaç vardırASİT VE BAZLARIN GÜNLÜK HAYAT AÇISINDAN 
+ÖNEMLİ TEPKİMELER1. Asitlerin Metallere EtkisAsitler metallerle temas ettiğinde birçoğuyla kimyasal tepkimeye girer. Metaller,
+tepkimeye girme isteklerine göre aktif metal, yarı soy metal, soy metal olmak üzere 
+üçe ayrılır:
+Aktif metaller: Hidrojen elementine göre kimyasal tepkimeye girme istekleri fazla 
+olan metallerdir. 
+• 1A ve 2A grubu elementleri [Sodyum (Na), Potasyum (K), Kalsiyum (Ca),
+Magnezyum (Mg)]
+• Alüminyum (Al), Çinko (Zn), Demir (Fe), Nikel (Ni), Kalay (Sn), Kurşu(Pb) elementleri aktif metallerdirAsitler aktif metallere etki ederler. Asitlerin aktif metallerle tepkimesinde asit molekülündek hidrojen atomu ile metal atomu yer değiştirir. Bunun sebebi, metalin kimyasa tepkimeye girme isteğinin hidrojen elementinden daha fazla olmasıdır. Tepkimed, asidin hidrojeni, gaz olarak açığa çıkar. Asit molekülünden geriye kalan tanecik 
+ile çözünmüş metal de, tuzu oluşturur. Bu tepkime, kimyasal denklemle aşağıdaki gibi 
+ifade edilir:
+Asit 
++ 
+Aktif metal 
+Tuz 
++
+Hidrojen gazÖrneğin, hidroklorik asidin magnezyum metaliyle tepkimesinde hidrojen gazı ve 
+magnezyum klorür tuzu oluşur: 
+2 HCl (aq) + 
+Mg (k) 
+ 
+MgCl2 (aq) 
++ 
+H2 (g)  
+Asit 
+Metal 
+Tuz 
+Hidrojen gazAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya Sülfürik asidin çinko ve demir metalleriyle tepkimesinden de hidrojen gazı ve tuelde edilir:
+ 
+H2SO4 (aq) 
++ 
+Asit 
+Zn (k) 
+Çinko metali 
+  H2(g) 
++ 
+            ZnSO4 (aq) 
+Hidrojen gazı 
+             u 
+FeSO4 
++ 
+H2 (g)
+Fe  
++  
+H2SODemir metali 
+Asit 
+Tuz 
+Hidrojen gazAlüminyum metalinin HCl asidiyle gerçekleştireceği kimyasal tepkimede  AlCl3 
+tuzu oluştuğuna göre tepkime denklemini yazınızÇözüm:
+2Al (k) 
++ 
+6 HCl (aq) 
+3 H2 (g) 
++ 
+2 AlCl3 (aq)
+6. UygulamYarı soy metaller: Kimyasal tepkimeye girme istekleri çok az olan metallerdir. Yarı 
+soy metallerin tepkimeye girme istekleri hidrojen elementinden daha azdır. Ancak 
+yarı soy metaller HNO3, H2SO4 gibi sadece oksijen içeren bazı kuvvetli asitlerle ve 
+belirli şartlarda tepkimeye girerler. 
+•
+Bakır (Cu), Cıva (Hg), Gümüş (Ag) yarı soy metaldirCHg  
++
+HCTepkime gerçekleşmezAg 
+Yarı soy metallerin oksijen içeren asitlerle tepkimesi sonucu tuz, su  ve 
+ametal oksit bileşikleri oluşur. 
+2 Ag + 
+2 H2SO4 
+Ag2SO4   + 
+SO2 
++ 
+       2 H2O 
+Tuz 
+  Ametal oksit 
+SCu 
++ 
+4 HNO3 
+ 
+Cu(NO3)2 + 2 NO2 
++ 2 H2Tuz 
+Ametal oksit 
+SAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya Soy metaller: Tepkimeye girme isteklerinin olmadığı kabul edilen metallerdir•
+Altın (Au), Platin (Pt) elementleri soy metaldirSoy metaller HCl, H2SO4, HNO3 gibi çok kuvvetli asitlerden bile etkilenmezler. 
+A+
+HCTepkime gerçekleşmezPt  
+A+
+H2SOTepkime gerçekleşmezPt   
+BİLGİ NOTBazı kuvvetli asitler belirli oranlarda karıştırılırlarsa soy metaller de aşınır. Bu 
+asit karışımına kral suyu denir. Kral suyu 3 hacim derişik HCl ve 1 hacim derişik 
+HNO3'in karıştırılmasıyla elde edilir. Soy metaller sadece kral suyu ile tepkimeye 
+girer2. Bazların Metallere EtkisBazlar, yarı soy metallere ve soy metallere etki etmezler. Ancak bazı derişik baçözeltileri, bazı aktif metallere etki ederek hidrojen gazı açığa çıkarırlar. Hem asitlerle 
+hem bazlarla etkileşen bu aktif metallere amfoter metal denir. 
+•
+Alüminyum (Al), çinko (Zn), krom (Cr), kurşun (Pb) metalleri amfoter metaldir Baz    +    Amfoter metal    
+Her bildiğini söyleme, her söylediğini bil.    Hidrojen gazı    +    TuNaOH (suda) + 2 Al (k) 
+2 NaAlO3 (suda) + 3 H2 (g)                                                            
+Sonraki sayfada yer alan deneyle asit ve bazların amfoter metallere etkisini 
+irdeleyelim: 
+Asitler, Bazlar ve Tuzla1. 
+Kimya Kimya Dene3Deneyin Adı:  Asit ve bazların alüminyum metaline etkisDeneyin Amacı: Alüminyum metalinin amfoterlik özelliğini keşfetmeKullanılan Kimyasal Maddeler 
+• Asit (Hidroklorik asit)
+• Alüminyum foly• Baz (Sodyum hidroksit)
+• SDeneyin Aşamalar12. 
+• Alüminyum folyodan küçük bir parça alınarak cam tüpe konulur• Üzerine, folyonun tamamı içinde kalacak şekilde bir miktar asit dökülür• Asit ve alüminyum metali etkileştiğinde, folyonun etrafında gaz kabarcıklar oluşup oluşmadığı gözlemlenir• Deney sırasında folyo miktarının değişip değişmediği gözlemlenir• Bir parça alüminyum folyo, cam tüpe konur• Bir çay kaşığı sodyum hidroksit katısı yarım bardak kaynar suya eklenive suda çözünmesi sağlanır• Oluşan bazik çözelti, alüminyum folyo bulunan cam tüpe, folyonun tamam içinde kalacak şekilde eklenir• Baz ve alüminyum metali etkileştiğinde, folyonun etrafında gakabarcıkları oluşup oluşmadığı gözlemlenir• Deney sırasında folyo miktarının değişip değişmediği gözlemlenirÜnitAsitler, Bazlar ve TuzlaAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya Sonuç 
+•
+Hem asit hem de baz alüminyum metaline etki etmiştir. Bunu tepkimsırasında gerçekleşen gaz çıkışından ve alüminyum miktarının gidereazalmasından anlayabiliriz•
+Alüminyum metali hem asitle hem bazla etkileştiğinden amfoter özelligösterir•
++
+Gerçekleşen tepkime denklemleri aşağıdaki gibidir: 
+Al (k)        +         3HCl (aq)
+AlCl3 (aq)
+2Al (k) 
++ 
+2NaOH (aq) 
+2Na+ (aq) +   2[AlOH4 ]-( aq) 
++  3 H2 (g)
+3/2 H2(g)
+Deneyde de fark edileceği gibi amfoter metaller hem asitlerle hem de bazlarla kimyasal 
+tepkime gerçekleştirir. Her iki durumda da hidrojen gazı açığa çıkar. 
+H2SOACKOHCYukarıdaki kaplara üstlerinde belirtilen metaller eklendiğinde hangilerinde 
+tepkime gerçekleşir?
+Çözüm: 
+• Al metali amfoter metal olduğundan asitlerle tepkimeye girer, bu nedenlI. kapta tepkime olur• Cu metali yarı soy metal olduğundan bazlarla etkileşmez. Bu nedenle IIkapta tepkime gerçekleşmez• K aktif metal olduğundan asitlerle etkileşir. Bu nedenle III. kapta da tepkim olur7. UygulamAsitler, Bazlar ve Tuzla1. 
+Kimya Kimya 3. Asitlerin Cam ve Porselene EtkisAsitlerin birçoğu camı aşındırmaz çünkü bu tür asitler camın ana maddesi olaSiO2 bileşiği ile kimyasal tepkimeye girmez. Örneğin nitrik asit, sülfürik asit, hidroklori asit cam ile etkileşmez. Bu nedenle bu tür asitler cam kaplarda saklanabilirler. 
+Ancak hidroflorik asit (HF) camı oluşturan SiO2 bileşiği ile tepkimeye girerek camın 
+aşınmasına sebep olur. 
+Hidroflorik asit, porselen malzemeleri de aşındırır. Porselenler killi topraktan yapılı ve üzeri sırça ile kaplanır. Sırça, camdan yapılmış bir malzemedir. Hidroflorik asit 
+camı aşındırdığından, temas ettiğinde porselenleri de aşındırır. Porselenlerin yüzeyi 
+camdan yapılmış bir malzeme olduğundan diğer asitler porselenlerle de etkileşmezler4. Asitlerin Nem Çekme TepkimesSaf hâldeki veya yüksek derişikteki sülfürik asit (H2SO4), fosforik asit (H3PO4), aseti asit (HCOOH)  gibi asitler etraflarında serbest hâlde bulunan su moleküllerini yapısın katar. Örneğin derişik asitler havadaki su buharını oluşturan molekülleri yapısın katarak havanın kurumasına yol açar. Bu durum asitlerin nem çekme özelliği 
+olarak ifade edilir. Asitlerin nem çekmesi ısı veren bir olaydır dolayısıyla bu esnada 
+çok yüksek miktarlarda ısı açığa çıkarBu tür derişik asitler sadece serbest hâldeki su 
+molekülleriyle değil; karbonhidrat, protein gibi bazı 
+organik maddelerin yapısındaki su molekülleri ile 
+de etkileşirler.  Derişik asitler, karbonhidrat ve proteini yapısında kimyasal bağla bağlı bulunan OH- 
+ve H+ iyonlarını çekerek su moleküllerini açığa çıkarırla ve yapılarına katarlar. Bu esnada da oldukça 
+yüksek miktarlarda ısı açığa çıkar. Örneğin sülfürik 
+asit cildimize temas ettiğinde cildimizi oluşturan 
+karbonhidratların ve proteinlerin yapısından su çeke. Bu esnada açığa çıkan yüksek miktarda ısı, cildimizd bir nevi yanmaya sebep olur. 
+Bu asitlerin suda çözünmesi sırasında da ısı açığa çıkar. Açığa çıkan ısıdan dolayı 
+çözünmenin gerçekleştirildiği kaplarda çatlamalar ve ani patlamalar oluşabilir. Bu nedenl asitlerle çalışırken dikkatli olunmalıdır. Asitle suyu karıştırırken suya asidi yavaş 
+yavaş eklemek gerekirGörsel 1.9 Asidin cildi yakmasÜnitAsitler, Bazlar ve TuzlaAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya 1.3. HAYATIMIZDA ASİTLER VE BAZLAAsit ve bazlar yiyecek ve içeceklerde, temizlik ürünlerinde vb. birçok alanda karşımız çıkmaktadır. Bu anlamda asit ve bazlar oldukça faydalı olup yaşantımızda önemli 
+bir yer kaplamaktadır.  Ancak asit ve bazların metal, cam, mermer gibi yüzeyleri aşındırmas;  saç, cilt, deri vb. dokularımızın yapısını bozması gibi birçok zararı da vardır. 
+Asit ve bazların fayda ve zararlarına aşağıda değinilmiştir:
+ASİT YAĞMURLARBildiğimiz gibi saf suyun pH değeri 7’dir. Ancak doğal yağmur suyunun pH değeri 
+5,5 civarındadır yani çok az asidiktir çünkü doğal yağmur suyu bir miktar karbonik 
+asit içerir. Karbonik asit, havada bulunan su buharıyla karbon dioksit gazının (CO2) 
+etkileşmesi sonucu oluşur. Tepkime denklemi aşağıdaki gibidir:
+CO2 (g) + 
+H2O (s) 
+H2CO3 (suda)
+Oluşan karbonik asit, havadaki suda iyonlaşarak H3O + iyonunu oluşturur:
+H2CO3 (suda) + H2O (s ) 
+H3O + (suda) + HCO3 – (suda)
+Bu nedenle doğal yağmur suyu biraz asidik özelliktedir. Ancak doğal yağmur suyunu pH değeri bazı bölgelerde normal değerinin altına düşebilmekte yani oldukça 
+asidik olabilmektedir.  pH değeri 5’in altında olan yağmura asit yağmuru denir. Asit 
+yağmuruna sülfürik ve nitrik asit sebep olmaktadır. Bu asitlerin atmosferde nasıl bulunduğ aşağıda yer almaktadır:  
+•
+Volkanik patlamalar sırasında atmosfere salınan HCl gazı atmosferdeki su buharıyl tepkimeye girerek asit yağmuruna sebep olmaktadır:
+HCl (g) + 
+H2O (s) 
+H3O + (aq) + 
+Cl -(aq)
+•
+Havayı kirletici gazlar da asit yağmurunun oluşmasına sebep olmaktadır. Bgazlar SO2, SO3, NO2 gibi asidik oksitlerdir. Bu gazlar öncelikli olarak fosil yakıtları (kömür, petrol) kullanılmasından kaynaklanmaktadır.  Fosil yakıtlakarbon elementinin yanı sıra belirli miktarlarda azot ve kükürt elementlerinde içerir. Fosil yakıtlar yandığında, azot ve kükürt elementleri SO2, SO3 ve NOgazlarını oluşturur. Bu gazlar atmosferde, suyla tepkimeye girdiğinde aside dönüşü. Bu asitler de yağmur suyunda iyonlaştığında, yağmur suyunun normapH değeri düşer ve asit yağmuru oluşurAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. ÜnitKimya Kimya Asit yağmurunun oluşum tepkimeleri aşağıda verilmiştir:
+SO2 (g) 
++ 
+O2 (g) 
+SO3(g) 
++ 
+H2O (s) 
+H2SO4 (aq) + 
+H2O (s) 
+SO3 (g)
+H2SO4 (aq)
+H3O+ (aq) + HSO-  (aq)
+Asit yağmurları dünyadaki birçok bölgenin karşılaştığı önemli çevre sorunlarından 
+biridir. Ülkemizde de bu çevre sorunu yaşanmaktadır. Asit yağmurlarının çevreye verdiğ zararların başlıcaları aşağıda belirtilmiştir: 
+•
+Asit yağmurları metal, mermer veya taştan yapılmı eserleri (heykeller, köprüler, yollar, arabala, evler, vb.) aşındırır. Asit yağmurundakH+ iyonuyla metal malzemeler tepkimeye girere paslanır. Benzer şekilde H+ iyonu kayaları, köprülerin, heykellerin vb. yapısındakkireç taşı ile tepkimeye girerek onların aşınmasın yol açarGörsel 1.11 Asit yağmurundan 
+zarar görmüş tarihi eseGörsel 1.10  Asit yağmuru 
+oluşumAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya •
+Asit yağmurları göl, nehir ve baraj sularına karıştığında bu suların asitliğini artırı. Bu durumda bu sulardaki balık, bitki vb. canlı yaşamı tehlikeye girer•
+Asit yağmurları toprağın asitlik oranını da artırır, bu da ağaçların, bitkileriyetişmesini engellerAşağıdaki maddelerden hangisi/ hangileri asit yağmuru olarak yeryüzüne düşmektedi?
+a) Amonyab) Sülfürik asic) Karbonik asiç) Nitrik asit 
+d) Hidroklorik asie) Sodyum hidroksiÇözüm:
+Sülfürik asit, nitrik asit ve hidroklorik asit, asit yağmuru olarak yağan asitlerdir8. UygulamBAZLARIN YAĞ, SAÇ VE DERİYE ETKİSAsitler de olduğu gibi bazlar da yağ, saç ve deriye etki eder. Aşağıdaki deneyle bazı 
+bazların bu maddelere etkisini inceleyelim:
+Dene4Deneyin Adı: 
+Bazların yağ, saç ve deriye etkisi 
+Deneyin Amacı: Bazı bazların yağ, saç ve deriye etkisini gözlemlemeKullanılan Maddeler 
+• Bir tutam sa• Hayvan deris• Sıvı ya• Kire• Sodyum hidroksi• Sıcak sAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. ÜnitKimya Kimya Deneyin Aşamalar• 6 tane büyük boy deney tüpü alınır• İlk ikisine birer tutam saç, 3 ve 4. deney tüpüne birer tatlı kaşığı sıvı yağ,
+son ikisine de avuç içinin yarısı kadar büyüklüklerde hayvan derisi konulur• Ardından saç bulunan deney tüplerinden birisine 1çay kaşığı kireç, diğerin 1 çay kaşığı sodyum hidroksit konulur• Aynı işlem sıvı yağ ve deri bulunan tüplere de uygulanır• Daha sonra deney tüpleri, yarısına kadar sıcak suyla doldurulu 
+gözlemlenirSonu• Kireç ve sodyum hidroksit; yağ, saç ve derinin yapısını bozarak onları sudçözünen maddelere dönüştürmüştürDeneyde de fark edildiği gibi bazı bazlar saçımıza, derimize temas ettiğinde onların 
+yapısını bozar. Dokuları aşındıran, zarar veren bazlar için kostik terimi kullanılmaktadı.  Hem asitler hem de bazlar aşındırıcı madde olmasına karşın kostik terimi, kuvvetl bazlar için kullanılmaktadır. Sodyum hidroksit (sud kostik/kostik soda), potasyu hidroksit (potas kostik) bazları kostik maddelerdir. Kostik maddeler asitler gibi 
+boru, musluk vb. metallerden yapılmış malzemeleri aşındırmazlar ancak cildimiz, gözümü vb. dokularımız üzerinde oldukça aşındırıcı etkileri vardır. 
+Kostik maddeler, saçımıza veya derimize temas ettiğind saç ve deriyi oluşturan proteinin yapısı bozulur. 
+Proteinler aminoasitlerden oluşur. Aminoasitler de biyoloj dersinde bahsedildiği gibi sahip oldukları karboksil 
+grubundan dolayı asidik özellik gösterir. Bu nedenle kosti maddelerle protein molekülleri arasında bir tür asitba tepkimesi gerçekleşir. Diğer bir ifadeyle kostik maddele proteini parçalayarak suda çözünen maddelerin 
+oluşmasını sağlar.  Saçımız ve derimiz de proteinlerden 
+oluştuklarından bazlarla teması hâlinde saçı oluşturan 
+proteinler parçalanır. Bu nedenle saçlar incelip kırılır ve 
+dökülür. 
+Görsel 1.12 Kostiğin 
+derimize etkisAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya Kostik maddeler derimizdeki yağlarla da etkileşerek parçalanmalarına sebep olurÇünkü yağlar, yağ asitlerinden oluşur ve yağ asitleri de asidik yapıdadır. Yine kostik 
+maddeyle yağ arasında bir tür asit-baz tepkimesi gerçekleşir. Böylece vücudumuzu 
+oluşturan dokular da yağ içerdiğinden derimiz zarar görürTuz 
++ 
+SProtein + Baz 
+(Asidik)  
+Yağ 
++ 
+Baz 
+Tuz 
++ 
+S(Asidik)
+BİLGİ NOT Saç boyaları amonyak vb. bazları içerirler. Bu nedenle saç boyaları saçtaki 
+proteini parçalayarak kırılmalara, dökülmelere yol açarHalk dilinde kireç olarak bilinen madde de kostik maddeler gibi saç ve deri vb. dokular etki eder. Kalsiyum oksit (CaO) bileşiği halk dilinde kireç olarak adlandırılır. 
+Önceki bölümde de belirtildiği gibi kalsiyum oksit, suyla etkileştiğinde bazik özellik 
+gösterir. 
++
+H2CaO 
+Sönmemiş kireç 
+Ca(OH)Sönmüş kireKirecin suyla etkileşmesi sonucu sönmüş kireç yani kalsiyum hidroksit (Ca (OH)2 ) 
+oluşur. Sönmüş kireç bir bazdır. Bu nedenle kireç de kostik maddeler gibi saç ve derimizdek proteinlerle ve yağlarla tepkimeye girerek onların zarar görmesine sebep olur. 
+Kostik, kireç gibi bazların protein ve yağları parçalama özelliklerinden sanayide 
+birçok alanda yararlanılmaktadır.  Örneğin yağ çözücülerin ve fırın temizleyicilerin 
+amacı yağları temizlemektir. Bazlar da yağlarla tepkimeye girip suda çözünen maddeler 
+oluşturduklarından yağ çözücüler ve fırın temizleyiciler NaOH, KOH gibi kostik maddeleden üretilmektedir. 
+Lavabo açıcılarında da yine kostik maddeler kullanılmaktadır çünkü lavabolardaki 
+tıkanıklıklar genellikle saç kıllarından ve deri atıklarından oluşur. Saç kılları ve derimiz 
+de protein içerikli olduğundan, bazlar bu maddelerle etkileştiğinde suda çözünen 
+maddeler elde edilir ve tıkanıklık giderilmiş olur. 
+Asitler, Bazlar ve Tuzla1. 
+Kimya Kimya Sindirim Sisteminde Asit ve BazlaAsit ve bazların aşındırıcı etkisi birçok alanda zararlı olsa da sindirim sistemimiz 
+açısından oldukça faydalıdır•
+Midede besinlerin sindirimi asidik ortamda gerçekleşir. Midede seyreltik hidroklori asit salgılanır. Bu salgının pH değeri 1,5-2 civarındadır. Midede salgılana HCl salgısı, besinler yoluyla gelen bakteri, parazit gibi mikroorganizmalaröldürür ve proteinlerin sindirilmesi için asidik ortam oluşturur•
+İnce bağırsakta besinlerin sindirimi ise bazik ortamda gerçekleşir. Karaciğerdesalgılanan safra sıvısı ile pankreasta salgılanan pankreas özsuyu ince bağırsağgelerek bazik ortam oluşturur. Safra sıvısı NaOH bazı içerir, bu nedenle baziözelliktedir. Pankreas özsuyu ise bikarbonat iyonu içerir, bu nedenle pH değer8,5 civarında olup bazik özellik gösterir•
+Midede bir miktar sindirilen proteinler ince bağırsağa gönderilir. Burada baziolan safra salgısı mideden gelen asidik özellikteki besini nötrleştirir•
+Yağların sindirimi de ince bağırsakta gerçekleşir. Yağlar, asidik özellik gösterdiklerinde ince bağırsakta bazik ortamda sindirilirÖzetle, asit ve bazlar günlük hayat açısından önemli birçok tepkime gerçekleştirmektedi. Bunların bir kısmını aşağıdaki gibi sıralayabiliriz: 
+*
+Asitler birçok metale etki eder. Bazı derişik asit karışımları soy metallerle biletkileşir*
+Bazlar amfoter metallerle etkileşir*
+Sülfürik asit, fosforik asit gibi bazı derişik asitler cildimizle temas ettiğindoldukça büyük tahribata yol açar*
+Nitrik asit, hidroklorik asit ve sülfürik asit, asit yağmurunu oluşturur*
+Kireç ve kostik gibi bazı bazlar yağ, saç ve deriye etki ederlerBu tepkimelerden bazıları oldukça faydalı iken bazıları da oldukça büyütehlikelere yol açmaktadırÜnitAsitler, Bazlar ve TuzlaAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya ASİT VE BAZLARLA ÇALIŞIRKEN DİKKAT EDİLMESİ 
+GEREKEN HUSUSLAAsit ve bazların birçoğunun çevreye, canlı dokusuna verdiği zararlar, aşındırma 
+özellikleri göz önüne alındığında asit ve baz içeren maddeleri kullanırken çok dikkatli 
+olmalı ve gerekli tedbirleri almalıyız. Eğer gerekli tedbirler alınırsa asit ve bazları güvenl kullanabiliriz. Bu önlemlerden en önemlileri aşağıda yer almaktadır:
+•
+Temizlik ürünlerinde asit veya bazların bulunduğunu biliyoruz.  Bunları 
+kullanımı sırasında oluşabilecek zararlardan etkilenmemek için bu maddelere 
+çıplak elle temas edilmemeli, eldiven kullanılmalıdır.    Gözlerimizi korumak 
+için koruyucu gözlük takılmalıdır•
+Bu tür maddelerin buharı solunmamalı, bu maddelerin buharına maru 
+kalmamak için ortam havalandırılmalı ve uzun süre bu tür ortamlard 
+kalınmamalıdır.  Örneğin çamaşır suyu, tuz ruhu (HCl çözeltisi) gibi temizlik 
+maddeleriyle  temizlik yaparken, bunlar koklanmamalı ve üzerimize sıçrarsa 
+hemen bol suyla yıkanmalıdır•
+Asit ve baz içerikli temizlik ürünleri birbirine karıştırılarak kullanılmamalıdır 
+çünkü aralarında gerçekleşen tepkime sonucu zararlı gazlar oluşabilmektedir. 
+Örneğin tuz ruhu bilindiği gibi asidik yapıda, çamaşır suyu ise bazik yapıdadır. 
+Bunlar karıştırıldığında açığa çıkan klor gazı (Cl2) ise zehirli olup gözümüze, 
+cildimize, solunduğunda solunum organlarımıza zarar verir.  Tepkime aşağıdak gibi gerçekleşir:
+NaOCl 
++ 
+2 HCl 
+ 
+Cl2 (g) 
++ 
+H2O 
++ 
+NaCl  
+Çamaşır suyu 
+Tuz ruhu 
+Klor gazBenzer şekilde amonyak içeren temizlik ürünleriyle tuz ruhu karıştırılınca da cildi 
+ve gözleri tahriş eden bir bileşik olan nişadır (NH4Cl) oluşur. Tepkime aşağıdaki 
+gibidir:
+ 
+NH3 
++ 
+HCl 
+ 
+NH4CAmonyak 
+Tuz ruhu 
+Nişadı•
+•
+•
+Bu tür kimyasallarla temizlik yapıldıktan sonra temizlenen yer bol suyla durulanmalıdı, böylece asit veya bazın vereceği zarar en aza indirilmiş olacaktırAsitler metalleri aşındırdığından, asitlerin metal kaplarda saklanmaları uygu 
+değildir. Benzer şekilde metallerden yapılmış mutfak malzemelerinin temizliğind de asit içerikli temizlik malzemelerinin kullanılması sakıncalıdırTesisat borularında veya mutfak gereçlerinde örneğin çaydanlıkta oluşan kirelenmeyi gidermek için kullanılan malzemelere dikkat edilmelidir. Bir öncek bölümde kirecin suyla etkileştiğinde baz gibi davrandığını öğrendik. B 
+nedenle mutfak malzemelerindeki kirecin çıkarılmasında veya kireçlenme ne-
+Asitler, Bazlar ve Tuzla1. 
+Kimya Kimya •
+Asitler metalleri aşındırdığından, lavabo tıkanıklıklarını açmak için asit içerikltemizleyiciler kullanılırsa metal borulardan yapılmış tesisatlar aşınır ve zamanldelinir. Bu nedenle doğru yerde doğru ürün kullanılmalıdır•
+Temizlik yaparken kimyasallar gerektiğ kadar kullanılmalı, aşırıya kaçılmamalıdı çünkü bu kimyasallar atık solarak yer altı sularına ve akarsularkarışmaktadır. Bu nedenle bu tür kimyasalar toprakta ve bu sularda yaşayacanlılar için tehlike oluşturmaktadırdeniyle tıkanan boruların açılmasında 
+asit içeren ürünler kullanılmaktadır. 
+Piyasada satılan kireç çözücü ürünler 
+kezzap, zaç yağı, tuz ruhu, fosforik asit 
+gibi asitleri içermektedir. Çünkü kireç 
+bazik özellik gösterdiğinden asit ile 
+tepkimeye girdiğinde nötralleşme tepkimsi gerçekleşir. Böylece kireç suda 
+çözünen maddelere dönüşürGörsel 1.13 Zararlı kimyasalların sebep 
+olduğu balık ölümleri 
+Görsel 1.14 Duş başlığında kireçlenmÜnitAsitler, Bazlar ve TuzlaAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya Kireç 
++
+AsiTuz 
++ 
+S(Bazik)
+Piyasada satılan kireç çözücüler yerine sirke gibi asidik özellik gösteren doğal ürünlerl de kireçlenme giderilebilir. Benzer şekilde metal eşyaların paslarını gidermek için 
+de asit içeren ürünler kullanılmaktadır çünkü pas da kireç gibi bazik yapıdadır. Pasları 
+gidermek için piyasada satılan pas gidericiler yerine limon, sirke gibi asidik yapıdaki 
+maddeleri tercih etmeliyiz•
+Asitler cam kaplarda da muhafaza edilmemelidir çünkü cam kapların kırılmriski olduğundan, kap kırıldığında asit etrafa saçılır. Bu durumda asit hem bizhem de etrafa zarar verir. Bu nedenle asitler plastik kaplarda depolanmalı vtaşınmalıdır•
+Asit ve baz içeren ürünlerin ambalajındaki güvenlik uyarılarını dikkate almalıyızGörsel 1. 15 Tuz ruhu, sıvı deterjan ve kir-yağ çözücAsitler, Bazlar ve Tuzla1. 
+Kimya Kimya 1.4. TUZLAGünlük hayatta tuz deyince aklımıza yemek tuzu gelir ancak üretilen tuzların çok 
+az bir kısmı yemek tuzudur. Kimya dilinde iyonik yapıdaki bileşikler genel olarak tuz 
+olarak adlandırılır.  Birçok farklı çeşidi olan tuz; temizlik maddelerinde, kâğıt, cam, 
+plastik, gübre vb. yapımında ve daha birçok alanda karşımıza çıkmaktadırTuzlar ; 
+• asitlerin metallerle tepkimesi,
+• asitlerin metal oksitlerle tepkimesi,
+• asitlerin bazlarla tepkimesi,
+• bazların ametal oksitlerle tepkimesi,
+• metallerle ametallerin tepkimesi sonucu oluşmaktadırBu tuzlardan yaygın olanların özellikleri ve kullanım alanları aşağıda yer almaktadır:
+a) Sodyum Klorür (NaCl)
+• Sofra tuzu olarak da bilinir• Nötr yapıdadır• Suda çok iyi çözünür• Sulu çözeltisi elektriği iyi iletir• 800 oC sıcaklıkta erir• NaOH üretiminde kullanılır çünkü tuzlu su çözeltisi elektroliz edildiğindNaOH açığa çıkar2 NaCl (k) + 
+2 H2O (s) 
+2 NaOH (suda) + 
+Cl2 (g) 
++ 
+H2 (g)
+Görsel 1.16 Sodyum 
+klorüEnerjÜnitAsitler, Bazlar ve TuzlaAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya • Kâğıt üretim aşamasında kâğıt hamurunu beyazlatmak için kullanılır• Gıda sanayisinde salamura yöntemiyle gıdaların korunmasında kullanılır• Karayollarındaki buzlanmayı önlemek için bu tuzdan yararlanılır• Sert suların yumuşatılmasında kullanılan iyon değiştirici reçinelerin yapısınd bulunur. Reçinedeki sodyum iyonu miktarı azaldığında, eksilen mikta reçinenin NaCl çözeltisine daldırılmasıyla tamamlanırb) Sodyum Karbonat (Na2CO3)
+• Halk arasında çamaşır sodası olarak bilinir• Suda çok iyi çözünür. Çözünme tepkimesi aşağıdak gibi gerçekleşirNa2CO3     +      H2O                 NaOH    +     NaHCO• Suda çözündüğünde bazik özellik gösterir. Bazik yapıda olmasından dolaybelirli sıcaklıkta yağlarla tepkimeye girerek sabun oluşturur. Bu nedenle deterjanla gibi kıyafetlerdeki yağların temizlenmesinde kullanılır• Suda sertlik yapan iyonları karbonatlı bileşik hâlinde çöktürür. Bu nedenlçamaşır makinelerinde yumuşatıcı olarak da görev yapabilir• Cam üretiminde kullanılır• Diş macunu üretiminde kullanılırc) Sodyum Bikarbonat (NaHCO3)
+• Halk arasında yemek sodası veya karbonaolarak adlandırılır. Gıda sanayisinde kullanıla kabartma tozunun yapısında bulunur(Kabartma tozunun ana maddesi sodyum bikarbona olmakla birlikte başka maddeler diçerir.)
+Görsel 1.17 Sodyum 
+karbonaGörsel 1.18 Sodyum 
+bikarbonaAsitler, Bazlar ve Tuzla1. 
+Kimya Kimya • Isıtıldığında sodyum karbonat tuzuna dönüşür, bu esnada açığa CO  2 gazçıkar. Hamur işlerinde kullanıldığında, bu gaz hamurun kabarmasın   ı 
+sağlar2 NaHCO3 
+ısNa2CO3 
++ 
+CO2 
++
+H2• Suda çözünür• Amfoter özellik gösterir• Diş macununda dişleri beyazlatma ve diş plaklarını temizlemede kullanılırç) Kalsiyum Karbonat (CaCO3)
+• Halk arasında kireç taşı olarak bilinirKireç taşı ve mermerin ana bileşenidirSuda çok az çözünür• Bazik bir tuzdur. Bu nedenle toz hâlingetirilmiş CaCO3 asidik özellikteki topraklar karıştırılarak, toprağın nötrleşmes sağlanır• Yüksek sıcaklıkta ısıtıldığında halk dilind kireç olarak bilinen kalsiyum oksibileşiği elde edilir 
+CaCO3(k) 
+ısCaO (k) 
++
+CO2 (g)
+• Suda çok az çözünür. Suya sertlik veren kalsiyum iyonlarıyla (Ca2+ ) sudçözünmüş hâlde bulunan karbonat iyonları (CO2- ) birleşerek CaCO3 halind dibe çöker. Çaydanlıklarda, tencerelerde tortu olarak görülen, kireçlenm olarak adlandırılan madde kalsiyum karbonattırGörsel 1.19 Kalsiyum karbonaÜnitAsitler, Bazlar ve TuzlaAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. Ünit1. ÜnitKimya Kimya • İnşaat malzemesi olarak çimento yapımında kullanılır• Gıda sanayisinde E170 koduyla katkı maddesi olarak kullanılırd) Amonyum Klorür (NH4Cl)
+• Halk arasında nişadır olarak bilinir• Elde edilme yöntemlerinden birisi zayıf bir baz olan amonyak ile kuvvetli 
+bir asit olan hidroklorik asidin tepkimesidir. Amonyak zayıf baz, HCkuvvetli asit olduğundan tepkime sonucu oluşan NH4Cl tuzu hafif asidibir t uzdur• Suda çok iyi çözünür• Gübre üretimi için gerekli olan azot ihtiyacı büyük oranda bu tuzdakarşılanır• Gıda sanayisinde E510 koduyla katkı maddesi olarak kullanılır• İlaç sanayisinde soğuk algınlığı ve öksürük ilaçlarının bileşiminde yer alır. 
+Öksürük şurubunda balgam söktürücü olarak görev yapar• Lehimlemede metalin yüzeyinde oluşan oksit tabakasının temizlenmesind kullanılır. Bu özellik tuzun yüksek sıcaklıkta ısıtılması sonu    u o luşaHCl'in metalin yüzeyindeki metal oksitle tepkimeye girmesi şeklinde gerçekleşiısNH4Cl(k) 
+NH3(g) 
++ 
+HCl (g)
+• Kuru pillerde iletkenliği sağlamak amacıyla kullanılırAsitler, Bazlar ve TuzlaAsitler, Bazlar ve Tuzla1. ÜnitKimya Kimya Asitler 
+•
+Tatları ekşidir. Limon, sirke gibgıdalar asidik özellik gösterir•
+İndikatörlerin rengini değiştirir•
+pH değeri 0’dan 7’ye kadardır•
+Hidroklorik asit, sülfürik asit,
+nitrik asit vb. maddeler asittir•
+CO2, SO2 vb. maddeler suyletkileştiklerinde asit gibdavranırlar•
+Metal, cam vb. yüzeyleri aşındırır•
+Nem çeker ve suda çözünürken ısaçığa çıkarır•
+Suda H3O+ iyonu oluşturur•
+Metallerle etkileştiğinde H2 gazaçığa çıkar•
+Bazlarla nötralleşme tepkimesgerçekleştirir, ürün olarak tuz ve soluşurBazla•
+Tatları acıdır•
+Ciltte kayganlık hissi oluştururSabun ve deterjanlar baziözelliktedir•
+İndikatörlerin rengini değiştirir•
+pH değeri 7’ den 14’  e kadardır•
+Sodyum hidroksit, kalsiyuhidroksit vb. maddeler bazdır•
+NH3, CaO gibi maddelesuyla etkileştiklerinde baz gibdavranırlar•
+Kireç ve kostik gibi bazlar yağ, saç,
+deri vb. dokulara etki eder•
+Suda OH- iyonu oluşturur•
+Metallerle etkileştiğinde H2 gazaçığa çıkar•
+Asitlerle nötralleşme tepkimesgerçekleştirir, ürün olarak tuz ve soluşurTuzla•
+İyonik yapılı bileşiklerdir•
+Bir kısmı suda çözünür•
