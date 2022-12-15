@@ -329,46 +329,46 @@ def main():
     print(threegram_matrix)
     print("----------------------------------")
 
-    # string = "çeşitli konferanslarda"
-    # parsed_string = parse_syllable(string)
-    # print("parsed_string: ")
-    # print(parsed_string)
-    # string_bigrams = generate_ngrams(parsed_string, 1)
-    # print("string_bigrams: ")
-    # print(string_bigrams)
-    # prob_bigram = chain_rule_bigram(
-    #     bigram_matrix, string_bigrams, bigrams, unique_bigrams, 0, 1)
-    # print("prob_bigram: ")
-    # print(prob_bigram)
-    # perp_bigram = perplexity_bigram(
-    #     bigram_matrix, string_bigrams, bigrams, unique_bigrams, 0, 0)
-    # print("perp_bigram: ")
-    # print(perp_bigram)
-    # print("----------------------------------")
-    # print("string_towgrams: ")
-    # string_towgrams = generate_ngrams(parsed_string, 2)
-    # print(string_towgrams)
-    # prob_twogram = chain_rule_towgram(
-    #     towgram_matrix, bigram_matrix, string_towgrams, towgrams, bigrams, unique_towgrams, unique_bigrams, 0, 1)
-    # print("prob_twogram: ")
-    # print(prob_twogram)
-    # perp_twogram = perplexity_towgram(
-    #     towgram_matrix, bigram_matrix, string_towgrams, towgrams, bigrams, unique_towgrams, unique_bigrams, 0, 0)
-    # print("perp_twogram: ")
-    # print(perp_twogram)
-    # print("----------------------------------")
-    # print("string_threegrams: ")
-    # string_threegrams = generate_ngrams(parsed_string, 3)
-    # print(string_threegrams)
-    # prob_threegram = chain_rule_threegram(threegram_matrix, towgram_matrix, bigram_matrix, string_threegrams,
-    #                                       threegrams, towgrams, bigrams, unique_threegrams, unique_towgrams, unique_bigrams, 0, 1)
-    # print("prob_threegram: ")
-    # print(prob_threegram)
-    # perp_threegram = perplexity_threegram(threegram_matrix, towgram_matrix, bigram_matrix, string_threegrams,
-    #                                       threegrams, towgrams, bigrams, unique_threegrams, unique_towgrams, unique_bigrams, 0, 0)
-    # print("perp_threegram: ")
-    # print(perp_threegram)
-    # print("----------------------------------")
+    string = "çeşitli konferanslarda"
+    parsed_string = parse_syllable(string)
+    print("parsed_string: ")
+    print(parsed_string)
+    string_bigrams = generate_ngrams(parsed_string, 1)
+    print("string_bigrams: ")
+    print(string_bigrams)
+    prob_bigram = chain_rule_bigram(
+        bigram_matrix, string_bigrams, bigrams, unique_bigrams, 0, 1)
+    print("prob_bigram: ")
+    print(prob_bigram)
+    perp_bigram = perplexity_bigram(
+        bigram_matrix, string_bigrams, bigrams, unique_bigrams, 0, 0)
+    print("perp_bigram: ")
+    print(perp_bigram)
+    print("----------------------------------")
+    print("string_towgrams: ")
+    string_towgrams = generate_ngrams(parsed_string, 2)
+    print(string_towgrams)
+    prob_twogram = chain_rule_towgram(
+        towgram_matrix, bigram_matrix, string_towgrams, towgrams, bigrams, unique_towgrams, unique_bigrams, 0, 1)
+    print("prob_twogram: ")
+    print(prob_twogram)
+    perp_twogram = perplexity_towgram(
+        towgram_matrix, bigram_matrix, string_towgrams, towgrams, bigrams, unique_towgrams, unique_bigrams, 0, 0)
+    print("perp_twogram: ")
+    print(perp_twogram)
+    print("----------------------------------")
+    print("string_threegrams: ")
+    string_threegrams = generate_ngrams(parsed_string, 3)
+    print(string_threegrams)
+    prob_threegram = chain_rule_threegram(threegram_matrix, towgram_matrix, bigram_matrix, string_threegrams,
+                                          threegrams, towgrams, bigrams, unique_threegrams, unique_towgrams, unique_bigrams, 0, 1)
+    print("prob_threegram: ")
+    print(prob_threegram)
+    perp_threegram = perplexity_threegram(threegram_matrix, towgram_matrix, bigram_matrix, string_threegrams,
+                                          threegrams, towgrams, bigrams, unique_threegrams, unique_towgrams, unique_bigrams, 0, 0)
+    print("perp_threegram: ")
+    print(perp_threegram)
+    print("----------------------------------")
 
     print("Make sentence 'yıllarda': ")
     search = "yıllarda"
