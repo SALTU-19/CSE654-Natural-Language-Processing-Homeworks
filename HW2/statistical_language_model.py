@@ -1,6 +1,7 @@
 import re
 import numpy as np
-
+from scipy.sparse import csc_matrix
+from syllable import Encoder
 import math
 
 
@@ -24,60 +25,16 @@ consonant = ["b", "c", "d", "g", "ğ", "j", "l", "m", "n", "r",
              "v", "y", "z", "ç", "f", "h", "k", "p", "s", "ş", "t"]
 vowel = ["a", "ı", "o", "u", "e", "i", "ö", "ü"]
 
+# params chosen for demonstration purposes
+encoder = Encoder(lang="tr", limitby="vocabulary", limit=3000)
 
-def parser(word):
-    spell = list(word)
-    vowel_count = sum([1 for i in spell if i in vowel])
-    lenght = len(word)
-
-    if lenght == 1 or lenght == 2:
-        return word
-
-    if (lenght == 4 or lenght == 3) and vowel_count == 1:
-        return word
-
-    if word[0] in consonant:
-        if word[1] in consonant:
-            if word[4] in consonant:
-                return word[:4] + " " + parser(word[4:])
-            else:
-                return word[:3] + " " + parser(word[3:])
-        else:
-            if word[2] in consonant and word[3] in consonant and not word[4] in consonant:
-                return word[:3] + " " + parser(word[3:])
-            elif word[2] in consonant and word[3] in consonant and word[4] in consonant:
-                return word[:4] + " " + parser(word[4:])
-            else:
-                return word[:2] + " " + parser(word[2:])
-    else:
-        if word[1] in vowel:
-            return word[0] + " " + parser(word[1:])
-        else:
-            if word[2] in vowel:
-                return word[:1] + " " + parser(word[1:])
-            else:
-                return word[:2] + " " + parser(word[2:])
 
 # parse string into syllables
 
 
 def parse_syllable(string):
-    # read the file split the words
-    words = []
-    for line in string.splitlines():
-        for word in line.split(" "):
-            word = turkish_to_english(word)
-            if(len(word) >= 1):
-                words.append(word)
-
-    # collect parsed words
-    parsed_words = []
-    for word in words:
-        parsed_words.append(parser(word))
-
-    # append parsed words to a single string
-    parsed_words_s = " ".join(parsed_words)
-    return parsed_words_s
+    string = turkish_to_english(string)
+    return encoder.tokenize(string)
 
 # read all file to a single string
 
@@ -108,27 +65,27 @@ def parse_string_three(string):
     return string.split(" ")[2]
 
 
-def count_element_matrix(matrix, element):
+def count_element_matrix(sparse_matrix, element):
     count = 0
-    for i in range(len(matrix)):
-        for j in range(len(matrix[i])):
-            if(matrix[i][j] == element):
-                count += 1
+    for i in sparse_matrix.data:
+        if(i == element):
+            count += 1
     return count
 
 
 def good_turing_smooting(ngram_matrix, ngrams, unique_ngrams):
     gt_smooth = np.zeros((len(unique_ngrams), len(unique_ngrams)))
+    sparse_matrix = csc_matrix(ngram_matrix)
+    count_one = count_element_matrix(sparse_matrix, 1)
     # calculate good turing smoothing
     for i in range(len(ngram_matrix)):
         for j in range(len(ngram_matrix[i])):
             if(ngram_matrix[i][j] == 0):
-                gt_smooth[i][j] = count_element_matrix(
-                    ngram_matrix, 1) / len(ngrams)
+                gt_smooth[i][j] = count_one / len(ngrams)
             else:
                 gt_smooth[i][j] = (ngram_matrix[i][j]+1) * \
-                    count_element_matrix(ngram_matrix, ngram_matrix[i][j]+1) / \
-                    count_element_matrix(ngram_matrix, ngram_matrix[i][j])
+                    count_element_matrix(sparse_matrix, ngram_matrix[i][j]+1) / \
+                    count_element_matrix(sparse_matrix, ngram_matrix[i][j])
     return gt_smooth
 
 
@@ -240,7 +197,6 @@ def chain_rule_threegram(threegram_matrix, towgram_matrix, bigram_matrix, search
         return prob * probab(search[0].split(" ")[0], bigrams, unique_bigrams) * bigram_matrix[unique_bigrams.index(
             search[0].split(" ")[0])][unique_bigrams.index(search[0].split(" ")[1])] * towgram_matrix[unique_towgrams.index(
                 search[0].split(" ")[0]+" "+search[0].split(" ")[1])][unique_bigrams.index(search[0].split(" ")[2])]
-        # return prob
     else:
         prob = prob * \
             threegram_matrix[unique_threegrams.index(
@@ -259,6 +215,60 @@ def perplexity_threegram(threegram_matrix, towgram_matrix, bigram_matrix, search
             math.log2(threegram_matrix[unique_threegrams.index(
                 search[index])][unique_bigrams.index(parse_string_three(search[index+1]))])
         return perplexity_threegram(threegram_matrix, towgram_matrix, bigram_matrix, search, threegrams, towgrams, bigrams, unique_threegrams, unique_towgrams, unique_bigrams, index+1, perp)
+
+
+def find_max_probable_word_bigram(bigram_matrix, unique_bigrams, word):
+    max_prob = 0
+    max_word = ""
+    count = 0
+    index = 0
+    for j in range(5):
+        for i in range(len(bigram_matrix[unique_bigrams.index(word[len(word)-1])])):
+            if bigram_matrix[unique_bigrams.index(word[len(word)-1])][i] > max_prob:
+                max_prob = bigram_matrix[unique_bigrams.index(
+                    word[len(word)-1])][i]
+                index = i
+
+        max_word += unique_bigrams[index]
+        word.append(unique_bigrams[index])
+        max_prob = 0
+    return max_word
+
+
+def find_max_probable_word_twogram(twogram_matrix, unique_twograms, unique_bigrams, word):
+    max_prob = 0
+    max_word = ""
+    count = 0
+    index = 0
+    for j in range(5):
+        for i in range(len(twogram_matrix[unique_twograms.index(word[len(word)-1])])):
+            if twogram_matrix[unique_twograms.index(word[len(word)-1])][i] > max_prob:
+                max_prob = twogram_matrix[unique_twograms.index(
+                    word[len(word)-1])][i]
+                index = i
+
+        max_word += unique_bigrams[index]
+        word.append(unique_twograms[index])
+        max_prob = 0
+    return max_word
+
+
+def find_max_probable_word_threegram(threegram_matrix, unique_threegrams, unique_bigrams, word):
+    max_prob = 0
+    max_word = ""
+    count = 0
+    index = 0
+    for j in range(5):
+        for i in range(len(threegram_matrix[unique_threegrams.index(word[len(word)-1])])):
+            if threegram_matrix[unique_threegrams.index(word[len(word)-1])][i] > max_prob:
+                max_prob = threegram_matrix[unique_threegrams.index(
+                    word[len(word)-1])][i]
+                index = i
+
+        max_word += unique_bigrams[index]
+        word.append(unique_threegrams[index])
+        max_prob = 0
+    return max_word
 
 
 def main():
@@ -292,73 +302,92 @@ def main():
         if grams not in unique_threegrams:
             unique_threegrams.append(grams)
 
-    print("bigrams: ")
-    print(bigrams)
-    print("unique_bigrams: ")
-    print(unique_bigrams)
+    # print("bigrams: ")
+    # print(bigrams)
+    # print("unique_bigrams: ")
+    # print(unique_bigrams)
     print("bigram_matrix: ")
     bigram_matrix = generate_bigram_matrix(unique_bigrams, bigrams)
     print(bigram_matrix)
     print("----------------------------------")
-    print("towgrams: ")
-    print(towgrams)
-    print("unique_towgrams: ")
-    print(unique_towgrams)
+    # print("towgrams: ")
+    # print(towgrams)
+    # print("unique_towgrams: ")
+    # print(unique_towgrams)
     print("towgram_matrix: ")
     towgram_matrix = generate_towgram_matrix(
         unique_towgrams, towgrams, unique_bigrams)
     print(towgram_matrix)
     print("----------------------------------")
-    print("threegrams: ")
-    print(threegrams)
-    print("unique_threegrams: ")
-    print(unique_threegrams)
+    # print("threegrams: ")
+    # print(threegrams)
+    # print("unique_threegrams: ")
+    # print(unique_threegrams)
     print("threegram_matrix: ")
     threegram_matrix = generate_threegram_matrix(
         unique_threegrams, threegrams, unique_bigrams)
     print(threegram_matrix)
     print("----------------------------------")
 
-    string = "sakat salata"
-    parsed_string = parse_syllable(string)
-    print("parsed_string: ")
-    print(parsed_string)
-    string_bigrams = generate_ngrams(parsed_string, 1)
-    print("string_bigrams: ")
-    print(string_bigrams)
-    prob_bigram = chain_rule_bigram(
-        bigram_matrix, string_bigrams, bigrams, unique_bigrams, 0, 1)
-    print("prob_bigram: ")
-    print(prob_bigram)
-    perp_bigram = perplexity_bigram(
-        bigram_matrix, string_bigrams, bigrams, unique_bigrams, 0, 0)
-    print("perp_bigram: ")
-    print(perp_bigram)
-    print("----------------------------------")
-    print("string_towgrams: ")
-    string_towgrams = generate_ngrams(parsed_string, 2)
-    print(string_towgrams)
-    prob_twogram = chain_rule_towgram(
-        towgram_matrix, bigram_matrix, string_towgrams, towgrams, bigrams, unique_towgrams, unique_bigrams, 0, 1)
-    print("prob_twogram: ")
-    print(prob_twogram)
-    perp_twogram = perplexity_towgram(
-        towgram_matrix, bigram_matrix, string_towgrams, towgrams, bigrams, unique_towgrams, unique_bigrams, 0, 0)
-    print("perp_twogram: ")
-    print(perp_twogram)
-    print("----------------------------------")
-    print("string_threegrams: ")
-    string_threegrams = generate_ngrams(parsed_string, 3)
-    print(string_threegrams)
-    prob_threegram = chain_rule_threegram(threegram_matrix, towgram_matrix, bigram_matrix, string_threegrams,
-                                          threegrams, towgrams, bigrams, unique_threegrams, unique_towgrams, unique_bigrams, 0, 1)
-    print("prob_threegram: ")
-    print(prob_threegram)
-    perp_threegram = perplexity_threegram(threegram_matrix, towgram_matrix, bigram_matrix, string_threegrams,
-                                          threegrams, towgrams, bigrams, unique_threegrams, unique_towgrams, unique_bigrams, 0, 0)
-    print("perp_threegram: ")
-    print(perp_threegram)
-    print("----------------------------------")
+    # string = "çeşitli konferanslarda"
+    # parsed_string = parse_syllable(string)
+    # print("parsed_string: ")
+    # print(parsed_string)
+    # string_bigrams = generate_ngrams(parsed_string, 1)
+    # print("string_bigrams: ")
+    # print(string_bigrams)
+    # prob_bigram = chain_rule_bigram(
+    #     bigram_matrix, string_bigrams, bigrams, unique_bigrams, 0, 1)
+    # print("prob_bigram: ")
+    # print(prob_bigram)
+    # perp_bigram = perplexity_bigram(
+    #     bigram_matrix, string_bigrams, bigrams, unique_bigrams, 0, 0)
+    # print("perp_bigram: ")
+    # print(perp_bigram)
+    # print("----------------------------------")
+    # print("string_towgrams: ")
+    # string_towgrams = generate_ngrams(parsed_string, 2)
+    # print(string_towgrams)
+    # prob_twogram = chain_rule_towgram(
+    #     towgram_matrix, bigram_matrix, string_towgrams, towgrams, bigrams, unique_towgrams, unique_bigrams, 0, 1)
+    # print("prob_twogram: ")
+    # print(prob_twogram)
+    # perp_twogram = perplexity_towgram(
+    #     towgram_matrix, bigram_matrix, string_towgrams, towgrams, bigrams, unique_towgrams, unique_bigrams, 0, 0)
+    # print("perp_twogram: ")
+    # print(perp_twogram)
+    # print("----------------------------------")
+    # print("string_threegrams: ")
+    # string_threegrams = generate_ngrams(parsed_string, 3)
+    # print(string_threegrams)
+    # prob_threegram = chain_rule_threegram(threegram_matrix, towgram_matrix, bigram_matrix, string_threegrams,
+    #                                       threegrams, towgrams, bigrams, unique_threegrams, unique_towgrams, unique_bigrams, 0, 1)
+    # print("prob_threegram: ")
+    # print(prob_threegram)
+    # perp_threegram = perplexity_threegram(threegram_matrix, towgram_matrix, bigram_matrix, string_threegrams,
+    #                                       threegrams, towgrams, bigrams, unique_threegrams, unique_towgrams, unique_bigrams, 0, 0)
+    # print("perp_threegram: ")
+    # print(perp_threegram)
+    # print("----------------------------------")
+
+    print("Make sentence 'yıllarda': ")
+    search = "yıllarda"
+    search_sylb = parse_syllable(search)
+    search_bigram = generate_ngrams(search_sylb, 1)
+    search_towgram = generate_ngrams(search_sylb, 2)
+    search_threegram = generate_ngrams(search_sylb, 3)
+    max_word_bigram = find_max_probable_word_bigram(
+        bigram_matrix, unique_bigrams, search_bigram)
+    print("For bigram: ")
+    print(search + " " + max_word_bigram)
+    max_word_twogram = find_max_probable_word_twogram(
+        towgram_matrix, unique_towgrams, unique_bigrams, search_towgram)
+    print("For towgram: ")
+    print(search + " " + max_word_twogram)
+    max_word_threegram = find_max_probable_word_threegram(
+        threegram_matrix, unique_threegrams, unique_bigrams, search_threegram)
+    print("For threegram: ")
+    print(search + " " + max_word_threegram)
 
 
 main()
