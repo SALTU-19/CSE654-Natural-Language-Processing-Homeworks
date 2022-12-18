@@ -273,7 +273,7 @@ def find_max_probable_word_threegram(threegram_matrix, unique_threegrams, unique
 
 def main():
     # read file
-    fileString = read_file("words.txt")
+    fileString = read_file("text.txt")
     # parse string into syllables
     parsed_words_file = parse_syllable(fileString)
     # collect bigrams
