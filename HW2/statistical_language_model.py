@@ -95,11 +95,6 @@ def generate_bigram_matrix(unique_bigrams, bigrams):
         bigram_matrix[unique_bigrams.index(
             bigrams[i])][unique_bigrams.index(bigrams[i+1])] += 1
     gt_smooth = good_turing_smooting(bigram_matrix, bigrams, unique_bigrams)
-
-    # edit bigram_matrix to make it more accurate
-    # for i in range(len(gt_smooth)):
-    #     if(np.sum(gt_smooth[i]) != 0):
-    #         gt_smooth[i] = gt_smooth[i] / np.sum(gt_smooth[i])
     return gt_smooth
 
 
@@ -110,10 +105,6 @@ def generate_towgram_matrix(unique_towgrams, towgrams, unique_bigrams):
             towgrams[i])][unique_bigrams.index(parse_string_two(towgrams[i+1]))] += 1
 
     gt_smooth = good_turing_smooting(towgram_matrix, towgrams, unique_towgrams)
-    # edit towgram_matrix to make it more accurate
-    # for i in range(len(towgram_matrix)):
-    #     if(np.sum(towgram_matrix[i]) != 0):
-    #         towgram_matrix[i] = towgram_matrix[i] / np.sum(towgram_matrix[i])
     return gt_smooth
 
 
@@ -125,11 +116,6 @@ def generate_threegram_matrix(unique_threegrams, threegrams, unique_bigrams):
 
     gt_smoothing = good_turing_smooting(
         threegram_matrix, threegrams, unique_threegrams)
-    # edit threegram_matrix to make it more accurate
-    # for i in range(len(threegram_matrix)):
-    #     if(np.sum(threegram_matrix[i]) != 0):
-    #         threegram_matrix[i] = threegram_matrix[i] / \
-    #             np.sum(threegram_matrix[i])
     return gt_smoothing
 
 
